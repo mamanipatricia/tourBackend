@@ -30,6 +30,25 @@ $ npm i -g npm // update  npm :)
 integer,userId:integer
 
 // Associations in DB
-3. 
+3. look at the models file 
+KEYWORDS
+    - belongsTo
+    - belongsToMany
+    - hasMany
+    - ..... documentation
+    - references
+    - foreignKey
+    - as duhh
+    - from -- to /// no es command
+    - through when is N:M
 
 
+// run migrations
+4. npx sequelize db:migrate
+options: - npx sequelize db:migrate:undo
+         - npx sequelize db:migrate:status    up/down
+
+// 
+
+
+5. 
